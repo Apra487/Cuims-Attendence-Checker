@@ -36,7 +36,7 @@ To schedule the task we can use different techniques depending upon Operating Sy
  
 * **linux**<br>
 We can use ```Cron``` to schedule our task.
-<br>
+
 * **windows**<br>
 We can use **Task Scheduler** to schedule our task.
 
