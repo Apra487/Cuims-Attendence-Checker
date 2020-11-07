@@ -32,7 +32,6 @@ To schedule the task we can use different techniques depending upon Operating Sy
 
 * **macOS** <br>
  I am using ```Launchd```, a tool for running daemons and agents on macOS for scheduling my task.
- <br>
  
 * **linux**<br>
 We can use ```Cron``` to schedule our task.
