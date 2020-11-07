@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+
+        <key>Label</key>
+        <string>com.cuims.daemon.plist</string>
+
+        <key>RunAtLoad</key>
+        <true/>
+
+        <key>StartCalendarInterval</key> 
+        <dict> 
+            <key>Hour</key> 
+            <integer>9</integer> 
+            <key>Minute</key> 
+            <integer>30</integer> 
+        </dict>
+
+        <key>StandardErrorPath</key>
+        <string>/Users/apratim/javascriptwebscraping/cuims-attendence/stderr.log</string>
+
+        <key>StandardOutPath</key>
+        <string>/Users/apratim/javascriptwebscraping/cuims-attendence/stdout.log</string>
+
+        <key>EnvironmentVariables</key>
+        <dict>
+            <key>PATH</key>
+            <string><![CDATA[/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin]]></string>
+        </dict>
+
+        <key>WorkingDirectory</key>
+        <string>/Users/apratim/javascriptwebscraping/cuims-attendence</string>
+
+        <key>ProgramArguments</key>
+        <array>
+            <string>/Users/apratim/.nvm/versions/node/v14.2.0/bin/node</string>
+            <string>index.js</string>
+        </array>
+
+    </dict>
+</plist>
