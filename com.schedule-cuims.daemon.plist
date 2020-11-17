@@ -6,16 +6,36 @@
         <key>Label</key>
         <string>com.cuims.daemon.plist</string>
 
-        <key>RunAtLoad</key>
-        <true/>
+        <!-- <key>RunAtLoad</key>
+        <true/> -->
 
-        <key>StartCalendarInterval</key> 
-        <dict> 
-            <key>Hour</key> 
-            <integer>9</integer> 
-            <key>Minute</key> 
-            <integer>30</integer> 
-        </dict>
+        <key>StartCalendarInterval</key>
+        <array>
+            <dict> 
+                <key>Hour</key> 
+                <integer>10</integer></integer> 
+                <key>Minute</key> 
+                <integer>0</integer>
+            </dict>
+            <dict>
+                <key>Hour</key> 
+                <integer>10</integer></integer> 
+                <key>Minute</key> 
+                <integer>30</integer>
+            </dict>
+            <dict>
+                <key>Hour</key> 
+                <integer>17</integer></integer> 
+                <key>Minute</key> 
+                <integer>10</integer>
+            </dict>
+            <dict>
+                <key>Hour</key> 
+                <integer>18</integer></integer> 
+                <key>Minute</key> 
+                <integer>20</integer>
+            </dict>
+        </array>
 
         <key>StandardErrorPath</key>
         <string>/Users/apratim/javascriptwebscraping/cuims-attendence/stderr.log</string>
@@ -34,7 +54,7 @@
 
         <key>ProgramArguments</key>
         <array>
-            <string>/Users/apratim/.nvm/versions/node/v14.2.0/bin/node</string>
+            <string>/usr/local/bin/node</string>
             <string>index.js</string>
         </array>
 
