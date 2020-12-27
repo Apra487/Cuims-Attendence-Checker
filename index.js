@@ -117,9 +117,6 @@ const mailOptions = {
 	});
 	let obj = {};
 
-	// TODO: Taking ScreenShot
-	await page.screenshot({ path: 'example.png' });
-
 	// TODO: Collecting data
 	for (let i = 1; i < 3; i++) {
 		let sub = await page.$x(
