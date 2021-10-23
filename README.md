@@ -45,7 +45,7 @@ We can use **Task Scheduler** to schedule our task.
 ## FAQ
 
 ### Q1: How to setup daemon or agents for launchd to schedule the task?
-**A:** I have shared my Launchd daemon plist file with this repo ```com.schedule-cuims.daemon.plist```. But for detail guid you can visit this awesome [Medium](https://medium.com/better-programming/schedule-node-js-scripts-on-your-mac-with-launchd-a7fca82fbf02) article.
+**A:** I have shared my Launchd daemon plist file with this repo ```com.schedule-cuims.daemon.plist```. But for detail guide you can visit this awesome [Medium](https://medium.com/better-programming/schedule-node-js-scripts-on-your-mac-with-launchd-a7fca82fbf02) article.
 
 ### Q2: Is there any alternate ways other than launchd to schedule our task?
 **A:** Yes, you can use ```Cron``` alternatively to schedule your task. Detailed guide can be found in this [Medium](https://medium.com/@gattermeier/cronjobs-for-your-node-js-apps-on-macos-20d129b42c0e) article.
